@@ -130,3 +130,144 @@ body {
     font-weight: bold;
     font-size: 20px;
 }
+
+/* CONTENEDOR DE TARJETAS */
+#seccion-tarjetas {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    background-color: rgb(27, 117, 188);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* TARJETA GENERAL */
+.tarjeta {
+    background-color: rgb(150, 220, 100);
+    flex: 1;
+    padding: 25px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    min-height: 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    color: white;
+    font-size: 16px;
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+/* IMÁGENES DENTRO DE TARJETAS */
+.tarjeta img {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+/* TEXTO */
+.tarjeta p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* EFECTO HOVER (SALTO) */
+.tarjeta:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+}
+
+/* TARJETA CENTRAL (ÁREA TECNOLÓGICA) */
+.tarjeta-central {
+    background-color: rgb(40, 150, 200);
+    flex: 1.2;
+}
+
+.tarjeta-central h2 {
+    margin: 10px 0;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.tarjeta-central p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #eaeaea;
+    padding: 0 10px;
+}
+
+#seccion-principal {
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(27, 117, 188);
+    padding: 60px 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+/* TÍTULO */
+#seccion-principal h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+/* CONTENEDOR DE CARRERAS */
+.carreras {
+    display: flex;
+    gap: 30px;
+}
+
+/* BLOQUE DE CADA CARRERA */
+.carrera {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* EFECTO HOVER */
+.carrera:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* SUBTÍTULOS */
+.carrera h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #ffeb3b;
+}
+
+/* TEXTO */
+.carrera p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.pie {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pie h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #000;
+}
+
+.pie p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #000;
+}
